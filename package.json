@@ -2,7 +2,7 @@
   "name": "gestao-arquivo",
   "private": true,
   "homepage": "https://TiamatCod3.github.io/gestao-arquivo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
