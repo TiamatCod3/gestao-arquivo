@@ -1,0 +1,51 @@
+.app{
+    background-color: var(--gray-500);
+}
+
+.estante{
+    width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prateleira:last-child{
+    height: 2rem;
+    /* border: 1px solid var(--gray-100); */
+    border-bottom: none;
+    border-left: 10px solid var(--gray-700);
+    border-right: 10px solid var(--gray-700);
+    background-color: var(--gray-500);
+}
+
+.prateleira{
+    border: 1px solid var(--gray-300);
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 1rem;
+    background-color: var(--gray-300);
+    box-shadow: inset 0px 0px 5px 5px var(--gray-400), 
+                inset -0px -0px 50px 5px  var(--gray-400);
+
+}
+
+
+
+.pasta-arquivo p{
+    width: 39px;
+    height: 105px;
+    background-color: var(--blue-300);
+    border: 2px solid var(--blue-dark);
+    box-shadow: inset 0px 0px 15px 5px var(--blue-dark);
+    margin: 2px;
+    color: var(--gray-100);
+    padding: 5px;
+   
+    
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+}
+
